@@ -25,7 +25,7 @@ node -v
 ```
 
 ```
-nvm install 20.9.0 // Caso essa versão não esteja instalada
+nvm install 20.9.0 // Caso a versão escolhida ainda não esteja instalada
 ```
 
 ```
