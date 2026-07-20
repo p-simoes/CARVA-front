@@ -12,6 +12,47 @@ CARVA é uma aplicação destinada para pessoas que participam do processo de cu
 
 # Pré-requisitos
 
+- [Angular (v17)](https://v17.angular.io/docs)
+- [Node.js (^18.13.0 || ^20.9.0)](https://nodejs.org/en)
+- [NVM](https://www.nvmnode.com/)
+
 # Instalação e Execução
 
+2. Verificar a versão do Node.js instalada e alterá-la para alguma das versões compatíveis com o projeto especificadas nos pré-requisitos por meio dos seguintes comandos:
+
+```
+node -v
+```
+
+```
+nvm install 20.9.0 // Caso essa versão não esteja instalada
+```
+
+```
+nvm use 20.9.0
+```
+
+2. Instalar pacotes e dependências
+
+```
+npm install
+```
+
+
+3. Executar o projeto em ambiente local:
+
+```
+ng serve
+```
+
+# Executando testes
+
+```
+npm run test
+```
+
+# Estrutura (Feature-Based)
+
 # Principais Funcionalidades
+
+Em breve.
