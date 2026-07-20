@@ -30,6 +30,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/primeng/resources/themes/lara-light-teal/theme.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -69,6 +70,10 @@
             }
           },
           "defaultConfiguration": "development"
+        },
+        "test": {
+            "builder": "@angular-builders/jest:run"
+            
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
