@@ -32,7 +32,7 @@ nvm install 20.9.0 // Caso a versão escolhida ainda não esteja instalada
 nvm use 20.9.0
 ```
 
-2. Instalar pacotes e dependências
+2. Instalar dependências
 
 ```
 npm install
@@ -45,10 +45,24 @@ npm install
 ng serve
 ```
 
-# Executando testes
+# Testes
+
+Executando todos: 
 
 ```
-npm run test
+npm test
+```
+
+Modo de observação:
+
+```
+npm run test:watch
+```
+
+Cobertura: 
+
+```
+npm run test:coverage
 ```
 
 # Estrutura (Feature-Based)
